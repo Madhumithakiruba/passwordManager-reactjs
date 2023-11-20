@@ -36,7 +36,7 @@ const PasswordItem = props => {
         </div>
       </div>
       <button
-        testid="delete"
+        data-testid="delete"
         type="button"
         className="delete-icon-container"
         onClick={onClickingDeleteIcon}
